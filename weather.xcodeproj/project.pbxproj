@@ -16,6 +16,9 @@
 		F029515B29420465008D0F58 /* weatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029515A29420465008D0F58 /* weatherTests.swift */; };
 		F029516529420465008D0F58 /* weatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029516429420465008D0F58 /* weatherUITests.swift */; };
 		F029516729420465008D0F58 /* weatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029516629420465008D0F58 /* weatherUITestsLaunchTests.swift */; };
+		F0295174294204A4008D0F58 /* sonson.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0295173294204A4008D0F58 /* sonson.jpeg */; };
+		F029517629420899008D0F58 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029517529420899008D0F58 /* DetailViewController.swift */; };
+		F029517829422D0D008D0F58 /* abracadabraLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F029517729422D0D008D0F58 /* abracadabraLogo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		F029516029420465008D0F58 /* weatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F029516429420465008D0F58 /* weatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherUITests.swift; sourceTree = "<group>"; };
 		F029516629420465008D0F58 /* weatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F0295173294204A4008D0F58 /* sonson.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sonson.jpeg; path = ../../sonson.jpeg; sourceTree = "<group>"; };
+		F029517529420899008D0F58 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F029517729422D0D008D0F58 /* abracadabraLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = abracadabraLogo.jpg; path = ../../abracadabraLogo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +110,11 @@
 				F029514729420464008D0F58 /* ViewController.swift */,
 				F029514929420464008D0F58 /* Main.storyboard */,
 				F029514C29420465008D0F58 /* Assets.xcassets */,
+				F0295173294204A4008D0F58 /* sonson.jpeg */,
+				F029517729422D0D008D0F58 /* abracadabraLogo.jpg */,
 				F029514E29420465008D0F58 /* LaunchScreen.storyboard */,
 				F029515129420465008D0F58 /* Info.plist */,
+				F029517529420899008D0F58 /* DetailViewController.swift */,
 			);
 			path = weather;
 			sourceTree = "<group>";
@@ -234,6 +243,8 @@
 				F029515029420465008D0F58 /* LaunchScreen.storyboard in Resources */,
 				F029514D29420465008D0F58 /* Assets.xcassets in Resources */,
 				F029514B29420464008D0F58 /* Main.storyboard in Resources */,
+				F0295174294204A4008D0F58 /* sonson.jpeg in Resources */,
+				F029517829422D0D008D0F58 /* abracadabraLogo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +272,7 @@
 				F029514829420464008D0F58 /* ViewController.swift in Sources */,
 				F029514429420464008D0F58 /* AppDelegate.swift in Sources */,
 				F029514629420464008D0F58 /* SceneDelegate.swift in Sources */,
+				F029517629420899008D0F58 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
